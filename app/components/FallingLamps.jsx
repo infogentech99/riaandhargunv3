@@ -28,7 +28,9 @@ export default function FallingLamps() {
     >
       {lamps.map((_, i) => {
         const left = Math.random() * 100;
-        const duration = 14 + Math.random() * 8;
+        const vh = parseInt(fallHeight);
+        const SPEED = 15;
+        const duration = (vh / SPEED) + Math.random() * 3;
         const delay = Math.random() * 6;
         const size = 50 + Math.random() * 70;
 

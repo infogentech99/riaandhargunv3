@@ -20,14 +20,14 @@ export default function ThingsToKnow() {
                                 <img src="/assets/drive.png" alt="" className="h-24 w-24" />
                                 <h2 className="text-2xl text-[#DEE6FF] mt-2 font-cormorant">Staff</h2>
                                 <p className="text-[16px] text-[#DEE6FF] mt-1">
-                                    We recommend the nearby <br/>lodge called VEGA near the <br/>venue for the staff members
+                                    We recommend the nearby <br />lodge called VEGA near the <br />venue for the staff members
                                 </p>
                             </div>
-                          <div className="flex flex-col items-center justify-center text-center">
+                            <div className="flex flex-col items-center justify-center text-center">
                                 <img src="/assets/car.png" alt="" className="h-24 w-24" />
                                 <h2 className="text-2xl text-[#DEE6FF] mt-2 font-cormorant">Parking</h2>
                                 <p className="text-[16px] text-[#DEE6FF] mt-1 font-cormorant">
-                                    Valet parking for all our <br/>guests will be available <br/>at the venue
+                                    Valet parking for all our <br />guests will be available <br />at the venue
                                 </p>
                             </div>
                         </div>
@@ -35,11 +35,10 @@ export default function ThingsToKnow() {
                     </div>
 
                     <div className="flex flex-col justify-center items-center">
-                        <img src="/assets/moon.png" alt="" className="bg-cover bg-no-repeat lg:h-150 lg:w-150 h-85 w-85 md:h-120 md:w-120"/>
-                
-                 <h2 className="lg:text-2xl text-xl text-center text-white lg:pt-12 md:pt-12 pt-6 font-cormorant">Hashtag</h2>
-                 <h2 className="lg:text-2xl text-xl text-center text-white pt-2">While posting photos on social media <br/>please use the hashtag - #FromRiaToKataria</h2>
-</div>
+                        <img src="/assets/moon.png" alt="" className="bg-cover bg-no-repeat lg:h-150 lg:w-150 h-85 w-85 md:h-120 md:w-120" />
+                        <h2 className="lg:text-2xl text-xl text-center text-white lg:pt-12 md:pt-12 pt-6 font-cormorant">Hashtag</h2>
+                        <h2 className="lg:text-2xl text-xl text-center text-white pt-2 font-cormorant">While posting photos on social media <br />please use the hashtag - #FromRiaToKataria</h2>
+                    </div>
 
                 </div>
             </div>

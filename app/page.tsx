@@ -56,12 +56,6 @@ export default function Home() {
     },
 
   ];
-
-
-
-
-
-
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [started, setStarted] = useState(false);
   const [playing, setPlaying] = useState(false);
@@ -109,10 +103,6 @@ export default function Home() {
             HARGUN
           </h2>
         </div>
-        {/* <div className="flex items-center justify-center pt-404 pb-20">
-          
-        </div> */}
-
         <div className="flex flex-col items-center text-center gap-6 mt-0 lg:pt-0">
           <h2 className="text-white text-sm sm:text-base">
             ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ <br />
@@ -193,17 +183,10 @@ export default function Home() {
             ))}
           </div>
         </div>
-
-
-
         <div className="flex justify-center mt-10 pb-24">
           <img src="/assets/kripal.png" alt="" className="lg:h-120 lg:w-120 w-60 h-60 md:w-90 md:h-95" />
         </div>
-
-
       </div>
-
-
       <div className="bg-[url('/assets/Group_2147224830.png')] bg-cover bg-no-repeat">
         <div className="lg:h-325 md:h-180 h-90">
           <h1 className="lg:text-3xl text-xl text-center text-[#E1EF1E] lg:pt-54 pt-12 font-cormorant">MEET THE</h1>
@@ -216,7 +199,6 @@ export default function Home() {
 
       <div className="bg-[url('/assets/bridewithmoon.png')] bg-cover bg-no-repeat">
         <div className="lg:h-325 md:h-180 h-92">
-
         </div>
       </div>
       <MarriageCountdown />
