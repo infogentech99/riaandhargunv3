@@ -7,39 +7,16 @@ import MarriageCountdown from "@/app/components/MarriageCountdown";
 export default function Home() {
   const events = [
     {
-      title: "Mehendi",
-      image: "/assets/mehandi.png",
-      date: "Friday, March 9th 2026",
-      venue: "Taj Exotica Resort, Goa",
-      time: "6pm Onwards",
-      link: "https://google.com",
-    },
-    {
-      title: "Haldi",
-      image: "/assets/haldi.png",
-      date: "Saturday, March 10th 2026",
-      venue: "Taj Exotica Resort, Goa",
-      time: "7pm Onwards",
-      link: "https://google.com",
-    },
-    {
-      title: "Cocktail",
+      title: "Sagan & Cocktail",
       image: "/assets/cocktail.png",
       date: "Sunday, March 11th 2026",
       venue: "Taj Exotica Resort, Goa",
       time: "10am Onwards",
       link: "https://google.com",
     },
+
     {
-      title: "Pre-Wedding",
-      image: "/assets/prewedding.png",
-      date: "Sunday, March 11th 2026",
-      venue: "Taj Exotica Resort, Goa",
-      time: "5pm Onwards",
-      link: "https://google.com",
-    },
-    {
-      title: "Anand Karaj",
+      title: "Wedding/Anand Karaj",
       image: "/assets/anand.png",
       date: "Monday, March 12th 2026",
       venue: "Taj Exotica Resort, Goa",
@@ -92,98 +69,100 @@ export default function Home() {
 
       <audio ref={audioRef} src="/assets/background_song.mp3" loop />
 
-      <div className="bg-[url('/assets/lavaan1.png')] bg-cover bg-center bg-no-repeat min-h-screen w-full px-4 sm:px-8  overflow-hidden">
+      <div className="bg-[url('/assets/lavaan.png')] bg-cover bg-center bg-no-repeat min-h-screen w-full px-4 sm:px-8  overflow-hidden">
         <FallingLamps />
-        <div className=" pt-24 pb-400">
+        <div className=" pt-24 pb-20">
+
           <h2 className="text-white font-cormorant text-center leading-tight
-            text-[60px] sm:text-6xl lg:text-[80px]">
+            text-[60px] sm:text-6xl lg:text-[80px] pb-350">
             RIA <br />
             <span className="text-xl sm:text-3xl tracking-[10px]">WEDS</span>
             <br />
             HARGUN
           </h2>
-        </div>
-        <div className="flex flex-col items-center text-center gap-6 mt-0">
-          <h2 className="text-white text-sm sm:text-base">
-            ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ <br />
-            ਪੁਰਖੁ ਨਿਰਭਉ <br />
-            ਨਿਰਵੈਰੁ…
-          </h2>
 
-          <img
-            src="/assets/onkar.png"
-            alt=""
-            className="w-40 sm:w-52 h-auto"
-          />
+          <div className="flex flex-col items-center text-center gap-6 mt-0 pt-150">
+            <h2 className="text-white text-sm sm:text-base">
+              ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ <br />
+              ਪੁਰਖੁ ਨਿਰਭਉ <br />
+              ਨਿਰਵੈਰੁ…
+            </h2>
 
-          <h2 className="text-white text-lg sm:text-2xl font-Cormorant-Upright">
-            With the heavenly blessings of <br />
-            Smt. Seema Bajaj W/o Late Sh. Rajesh Singh
-          </h2>
+            <img
+              src="/assets/onkar.png"
+              alt=""
+              className="w-40 sm:w-52 h-auto"
+            />
 
-          <hr className="lg:w-24 w-16 border-white my-4" />
+            <h2 className="text-white text-lg sm:text-2xl font-Cormorant-Upright">
+              With the heavenly blessings of <br />
+              Smt. Seema Bajaj W/o Late Sh. Rajesh Singh
+            </h2>
 
-          <h2 className="text-white font-cormorant text-lg sm:text-2xl">
-            Mrs. Vandana & Kishore Singh
-          </h2>
-        </div>
+            <hr className="lg:w-24 w-16 border-white my-4" />
 
-        <div className="mt-8 text-center">
-          <h2 className="text-white font-cormorant 
+            <h2 className="text-white font-cormorant text-lg sm:text-2xl">
+              Mrs. Vandana & Kishore Singh
+            </h2>
+          </div>
+
+
+          <div className="mt-8 text-center">
+            <h2 className="text-white font-cormorant 
             text-5xl sm:text-7xl lg:text-[100px] leading-tight">
-            INVITE
-          </h2>
+              INVITE
+            </h2>
 
-          <p className="text-white font-cormorant text-lg sm:text-2xl mt-6">
-            You to join us in the wedding celebrations of
-          </p>
+            <p className="text-white font-cormorant text-lg sm:text-2xl mt-6">
+              You to join us in the wedding celebrations of
+            </p>
 
-          <h2 className="text-white font-cormorant text-center mt-10
+            <h2 className="text-white font-cormorant text-center mt-10
             text-5xl sm:text-7xl lg:text-[100px] leading-tight">
-            RIA <br /> & <br /> HARGUN
-          </h2>
+              RIA <br /> & <br /> HARGUN
+            </h2>
 
-          <p className="text-white font-cormorant text-lg sm:text-2xl mt-6">
-            Son of <br /> Mrs. Manisha & Ajay Arora
-          </p>
+            <p className="text-white font-cormorant text-lg sm:text-2xl mt-6">
+              Son of <br /> Mrs. Manisha & Ajay Arora
+            </p>
 
-          <p className="text-white font-cormorant text-lg sm:text-2xl mt-8">
-            On the following events
-          </p>
-        </div>
+            <p className="text-white font-cormorant text-lg sm:text-2xl mt-8">
+              On the following events
+            </p>
+          </div>
 
-        <div className="flex justify-center mt-20 pb-24">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-32 gap-12 sm:gap-16">
-            {events.map((event, i) => (
-              <div key={i} className="flex flex-col items-center text-center">
-                <img
-                  src={event.image}
-                  alt={event.title}
-                  className="lg:w-80 w-95 sm:w-76 h-auto"
-                />
+          <div className="flex justify-center mt-20">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-32 gap-12 sm:gap-16">
+              {events.map((event, i) => (
+                <div key={i} className="flex flex-col items-center text-center">
+                  <img
+                    src={event.image}
+                    alt={event.title}
+                    className="lg:w-80 w-95 sm:w-76 h-auto"
+                  />
 
-                <h2 className="text-white font-cormorant text-2xl sm:text-3xl mt-4">
-                  {event.title}
-                </h2>
+                  <h2 className="text-white font-cormorant text-2xl sm:text-3xl mt-4">
+                    {event.title}
+                  </h2>
 
-                <p className="text-white font-cormorant text-sm sm:text-base leading-5 mt-2">
-                  {event.date} <br />
-                  {event.venue} <br />
-                  {event.time}
-                </p>
+                  <p className="text-white font-cormorant text-sm sm:text-base leading-5 mt-2">
+                    {event.date} <br />
+                    {event.venue} <br />
+                    {event.time}
+                  </p>
 
-                <a
-                  href={event.link}
-                  className="text-white underline text-sm mt-2"
-                  target="_blank"
-                >
-                  See the route
-                </a>
-              </div>
-            ))}
+                  <a
+                    href={event.link}
+                    className="text-white underline text-sm mt-2"
+                    target="_blank"
+                  >
+                    See the route
+                  </a>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
-
       </div>
 
 
@@ -220,7 +199,7 @@ export default function Home() {
         </div>
       </div>
 
-{/* mobile visible section */}
+      {/* mobile visible section */}
       <div className="md:hidden bg-[url('/assets/bridewithmoon_mobile.png')] bg-cover bg-no-repeat">
         <div className="h-230">
         </div>
