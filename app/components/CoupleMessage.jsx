@@ -61,7 +61,7 @@ export default function CoupleMessage() {
                                 slidesPerView: 2.2,
                             },
                             1024: {
-                                slidesPerView: 3.25,
+                                slidesPerView: 3,
                             },
                         }}
                     >
@@ -70,7 +70,7 @@ export default function CoupleMessage() {
                                 <img
                                     src={item.img}
                                     alt=""
-                                    className="w-full lg:h-125 h-120 object-cover rounded-[40px]"
+                                    className="w-full lg:h-125 h-120 object-cover rounded-[60px]"
                                 />
                             </SwiperSlide>
                         ))}

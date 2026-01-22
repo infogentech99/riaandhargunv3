@@ -87,7 +87,7 @@ export default function Home() {
         }}
         className="fixed bottom-4 right-4 z-50 bg-[#FF35A1] text-white p-3 rounded-xl text-xl"
       >
-        {playing ? "🔊" : "🔇"}
+        {playing ? "⏸" : "▶"}
       </button>
 
       <audio ref={audioRef} src="/assets/background_song.mp3" loop />
