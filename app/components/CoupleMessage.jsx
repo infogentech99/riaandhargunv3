@@ -77,8 +77,8 @@ This moment wouldn’t be the same without the people we love most. Thank you fo
                 </div>
                 <div className="flex flex-col-1 justify-center items-center mt-16">
                     <div className="bg-[url('/assets/seap.png')] bg-cover bg-no-repeat lg:h-150 lg:w-150 h-95 w-95 md:h-120 md:w-120">
-                        <h1 className="lg:text-6xl text-3xl md:text-5xl text-center text-white lg:pt-26 md:pt-22 pt-16 font-cormorant">Looking <br /> forward to <br />see you</h1>
-                        <p className="lg:text-[22px] text-[14px] text-[#DEE6FF] mt-6 text-center font-cormorant">
+                        <h1 className="lg:text-6xl text-3xl md:text-5xl text-center text-[#3c2267] lg:pt-26 md:pt-22 pt-16 font-cormorant">Looking <br /> forward to <br />see you</h1>
+                        <p className="lg:text-[22px] text-[14px] text-[#3c2267] mt-6 text-center font-cormorant">
                             Click the link to RSVP
                         </p>
                     </div>
