@@ -285,7 +285,7 @@ export default function Home() {
 
       {/* mobile visible section */}
       <div className="md:hidden bg-[url('/assets/bridewithmoon_mobile.png')] bg-cover bg-no-repeat">
-        <div className="h-230">
+        <div className="h-210">
         </div>
       </div>
       <MarriageCountdown />

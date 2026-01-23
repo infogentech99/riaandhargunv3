@@ -37,12 +37,17 @@ export default function MarriageCountdown() {
     return (
         <>
             <div className="bg-[url('/assets/backmid.png')] bg-cover bg-no-repeat pb-12">
-                <div className="lg:h-100 md:h-100 h-100">
+                <div className="lg:h-110 md:h-100 h-80">
                     <h2 className="lg:text-[40px] text-4xl text-center text-white lg:pt-42 pt-12 font-cormorant-upright">The countdown begins</h2> 
                       <h2 className="lg:text-[40px] text-2xl text-center text-white font-cormorant-upright"> {timeLeft.days}D {timeLeft.hours}H {timeLeft.minutes}M</h2>
                     <p className="lg:text-[16px] text-[18px] text-[#DEE6FF] mt-4 text-center lg:px-140 md:px-25 px-10 font-cormorant-upright">
                         Our families are excited that you are able to join us in celebrating what we hope will be one of the happiest days of our lives.
                     </p>
+                    <div className="flex flex-col-1 gap-4 justify-center items-center mt-4">
+                        <img src="/assets/instagram.png" alt="" className="h-10 w-10"/>
+                        <p className="lg:text-[22px] text-[18px] text-[#DEE6FF] text-center font-cormorant-upright">
+                        Follow Invite Arc on Instagram</p>
+                    </div>
                     <p className="lg:text-[16px] text-xl text-[#DEE6FF] mt-6 text-center font-cormorant-upright">
                         © Invite Arc 2026 </p>
                 </div>
