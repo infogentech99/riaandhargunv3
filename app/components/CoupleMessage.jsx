@@ -40,8 +40,8 @@ export default function CoupleMessage() {
 
         <div className="bg-[url('/assets/backmid.png')] bg-cover bg-no-repeat">
             <div className="lg:h-465 md:h-290 h-380">
-                <h1 className="lg:text-[40px] md:text-3xl text-[50px] text-center text-white lg:pt-32 pt-12 font-cormorant-upright">A message from the couple</h1>
-                <h2 className="lg:text-[30px] text-[18px]  text-center text-white lg:px-60 px-6 lg:mt-28 mt-12 font-cormorant-upright lg:leading-8 md:leading-8 leading-6">From different traditions to one beautiful journey, join us as we celebrate love, laughter, and forever.
+                <h1 className="lg:text-[40px] md:text-3xl text-[50px] text-center text-[#DEE6FF] lg:pt-32 pt-12 font-cormorant-upright">A message from the couple</h1>
+                <h2 className="lg:text-[30px] text-[18px]  text-center text-[#DEE6FF] lg:px-60 px-6 lg:mt-28 mt-12 font-cormorant-upright lg:leading-8 md:leading-8 leading-6">From different traditions to one beautiful journey, join us as we celebrate love, laughter, and forever.
                     This moment wouldn’t be the same without the people we love most. Thank you for your love, blessings, and for making our journey even more special, we’re so excited to celebrate together!</h2>
                 <div className="mt-32 flex justify-center items-center">
                     <Swiper

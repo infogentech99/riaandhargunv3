@@ -145,7 +145,7 @@ export default function Home() {
         {/* <FallingLamps /> */}
         <div className=" pt-24 pb-20 relative z-10">
 
-          <h2 className="text-white font-cormorant text-center leading-tight
+          <h2 className="text-[#DEE6FF] font-cormorant text-center leading-tight
             text-[50px] sm:text-5xl lg:text-[80px] md:pb-350 pb-0">
             HARGUN <br />
             <span className="text-xl sm:text-3xl tracking-[10px]">WEDS</span>
