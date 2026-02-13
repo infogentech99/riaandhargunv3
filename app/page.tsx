@@ -46,7 +46,8 @@ export default function Home() {
       title: "Sagan & Cocktail",
       image: "/assets/cocktail.png",
       date: "Sunday, March 8th 2026",
-      venue: "AKASA Main Road, Pushpanjali Farms, Opposite Petrol Pump, Delhi, 110061 6:30 pm onwards",
+      venue: "AKASA",
+      venue_address: "Main Road, Opposite Petrol Pump, Kapashere Extn, Pushpanjali Farms, New Delhi, Delhi, 110061",
       time: "6:30 pm onwards",
       link: "https://maps.app.goo.gl/uNMNPpgk6ukDJnZe7",
     },
@@ -55,7 +56,8 @@ export default function Home() {
       title: "Wedding/Anand Karaj",
       image: "/assets/anand.png",
       date: "Monday, March 9th 2026",
-      venue: "THE NIKUNJ Emperor Hall, NH 8, 22nd Milestone, near IGI Airport, New Delhi, Delhi - 110038",
+      venue: "THE NIKUNJ",
+      venue_address: "Emperor Hall NH 8, 22nd Milestone, near IGI Airport, New Delhi, Delhi - 110038",
       time: "8pm Onwards",
       link: "https://maps.app.goo.gl/1A2TWMfV3A4ECZ2JA",
     },
@@ -63,7 +65,8 @@ export default function Home() {
       title: "Reception",
       image: "/assets/reception.png",
       date: "Wednesday, March 11th 2026",
-      venue: "CARNIVAL MOTEL AND RESORTS Narela Rd, GT Karnal Road, NH 44, Alipur, New Delhi, Delhi, 110036",
+      venue: "CARNIVAL MOTEL AND RESORTS",
+      venue_address: "Narela Rd, GT Karnal Road, NH 44, Alipur, New Delhi, Delhi, 110036",
       time: "8pm Onwards",
       link: "https://maps.app.goo.gl/ZHUHoMhNe1xNM46k6",
     },
@@ -185,7 +188,7 @@ export default function Home() {
         <div className=" pt-24 pb-20 relative z-10">
 
           <h2 className="text-[#DEE6FF]  text-center leading-tight
-     text-[50px] sm:text-5xl lg:text-[80px] md:pb-350 pb-0
+     text-[60px] sm:text-5xl lg:text-[90px] md:pb-350 pb-0
   flex flex-col items-center gap-y-6">
 
             <span className="font-parisienne">Hargun</span>
@@ -210,8 +213,8 @@ export default function Home() {
             />
 
             <h2 className="text-[#E6D2FF] lg:text-[30px] md:text-2xl text-[18px] font-cormorant-upright">
-              With the heavenly blessings of  <br />
-              Grandparents<br /> Late Sdn. Parkash Kaur & Late Sd. Avtar Singh
+              With the heavenly blessings of
+              grandparents<br /> Late Sdn. Parkash Kaur & Late Sd. Avtar Singh
             </h2>
 
             <hr className="lg:w-24 w-16 border-[#E6D2FF] my-4" />
@@ -273,9 +276,10 @@ export default function Home() {
                   </h2>
 
                   <p className="text-[#E6D2FF] font-cormorant-upright text-[14px] sm:text-base leading-5 mt-2">
-                    {event.date} <br />
-                    {event.venue} <br />
-                    {event.time}
+                   <span className="text-[18px]">{event.date}</span>  <br />
+                   <span className="text-[16px]"> {event.venue}</span> <br />
+                    {event.venue_address} <br />
+                   <span className="text-[16px]">  {event.time} </span>
                   </p>
 
                   <a
@@ -293,13 +297,13 @@ export default function Home() {
       </div>
 
 
-      <div className="hidden md:block bg-[url('/assets/meetthebroom_n.png')] bg-cover bg-no-repeat">
+      <div className="hidden md:block bg-[url('/assets/meetthebroom.png')] bg-cover bg-no-repeat">
         <div className="lg:h-325 md:h-180">
           <h1 className="lg:text-3xl text-xl text-center text-[#E1EF1E] lg:pt-64 pt-12 font-cormorant">
             MEET THE
           </h1>
-          <h2 className="lg:text-[130px] text-2xl text-center text-[#EAD670] lg:pt-12 font-cormorant-upright leading-12">
-            <span className="text-[#EAD670] font-cormorant-upright">Bride</span> <br /> & <br /> <span className="text-[#EAD670] font-cormorant-upright ">Groom</span>
+          <h2 className="lg:text-[130px] text-2xl text-center text-[#00EAFF] lg:pt-12 font-cormorant-upright leading-12">
+            <span className="text-[#ADBAFF] font-cormorant-upright">Bride</span> <br /> & <br /> <span className="text-[#3FA9FF] font-cormorant-upright ">Groom</span>
           </h2>
         </div>
       </div>
@@ -307,14 +311,14 @@ export default function Home() {
 
       {/* mobile visible section */}
 
-      <div className="md:hidden bg-[url('/assets/meetthebroom_mobile_h.png')] bg-cover bg-no-repeat">
+      <div className="md:hidden bg-[url('/assets/meetthebroom_mobile.png')] bg-cover bg-no-repeat">
         <div className="h-220">
           <h1 className="text-xl text-center text-[#E1EF1E] lg:pt-48 pt-28 font-cormorant">
             MEET THE
           </h1>
-          <h2 className="text-[100px] text-center text-[#EAD670] font-cormorant-upright mt-6 leading-12">
-            <span className="text-[#EAD670] font-cormorant-upright">
-              Bride </span><br /> & <br /><span className="text-[#EAD670] font-cormorant-upright "> Groom </span>
+          <h2 className="text-[100px] text-center text-[#00EAFF] font-cormorant-upright mt-6 leading-12">
+            <span className="text-[#ADBAFF] font-cormorant-upright">
+              Bride </span><br /> & <br /><span className="text-[#3FA9FF] font-cormorant-upright "> Groom </span>
           </h2>
         </div>
       </div>
@@ -322,13 +326,13 @@ export default function Home() {
       <CoupleMessage />
       <ThingsToKnow />
 
-      <div className="hidden md:block bg-[url('/assets/bridewithmoon_h.png')] bg-cover bg-no-repeat">
+      <div className="hidden md:block bg-[url('/assets/bridewithmoon.png')] bg-cover bg-no-repeat">
         <div className="lg:h-325 md:h-180">
         </div>
       </div>
 
       {/* mobile visible section */}
-      <div className="md:hidden bg-[url('/assets/bridewithmoon_mobile_h.png')] bg-cover bg-no-repeat">
+      <div className="md:hidden bg-[url('/assets/bridewithmoon_mobile.png')] bg-cover bg-no-repeat">
         <div className="h-210">
         </div>
       </div>
