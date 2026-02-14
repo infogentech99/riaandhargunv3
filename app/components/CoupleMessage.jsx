@@ -76,7 +76,7 @@ export default function CoupleMessage() {
                         <h1 className="lg:text-6xl md:text-5xl text-[40px] leading-10 font-bold lg:leading-12 lg:font-semibold text-center text-[#3c2267] lg:pt-26 md:pt-22 pt-16 font-cormorant-upright">
                             Looking <br /> forward to <br />seeing you</h1>
                         <p className="lg:text-[22px] text-[14px] text-[#3c2267] md:mt-6 mt-4 text-center font-cormorant">
-                            Click the link to RSVP
+                            Click the contact numbers to RSVP
                         </p>
                         <p className="lg:text-[22px] text-[14px] text-white md:mt-6 mt-2 text-center font-cormorant font-semibold">
                             <a
