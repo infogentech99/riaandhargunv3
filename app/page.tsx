@@ -65,7 +65,7 @@ export default function Home() {
       venue2: "CARNIVAL MOTEL AND RESORTS",
       venue_address2: <>GT Karnal Road, NH 44, Alipur, <br/>New Delhi, 110036</>,
       time2: "8pm Onwards",
-      link_barat: "https://maps.app.goo.gl/1A2TWMfV3A4ECZ2JA",
+      link_barat: "https://maps.app.goo.gl/ZHUHoMhNe1xNM46k6", 
     },
     {
       title: "Reception",
@@ -74,7 +74,7 @@ export default function Home() {
       venue: "THE NIKUNJ",
       venue_address: <>Emperor Hall <br />NH 8, 22nd Milestone, near IGI Airport,<br/> New Delhi, 110038</>,
       time: "8pm Onwards",
-      link: "https://maps.app.goo.gl/ZHUHoMhNe1xNM46k6",
+      link: "https://maps.app.goo.gl/1A2TWMfV3A4ECZ2JA",
     },
 
   ];
