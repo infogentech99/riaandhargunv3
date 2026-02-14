@@ -237,7 +237,7 @@ export default function Home() {
               INVITES
             </h2>
 
-            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl text-[20px] mt-6">
+            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl text-[19px] mt-6">
               you to join us in the wedding celebrations of
             </p>
 
