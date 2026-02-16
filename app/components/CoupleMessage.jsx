@@ -75,10 +75,10 @@ export default function CoupleMessage() {
                     <div className="bg-[url('/assets/seap_h.png')] bg-cover bg-no-repeat lg:h-150 lg:w-150 h-95 w-95 md:h-120 md:w-120">
                         <h1 className="lg:text-6xl md:text-5xl text-[40px] leading-10 font-bold lg:leading-12 lg:font-semibold text-center text-[#3c2267] lg:pt-26 md:pt-22 pt-16 font-cormorant-upright">
                             Looking <br /> forward to <br />seeing you</h1>
-                        <p className="lg:text-[22px] text-[14px] text-[#3c2267] md:mt-6 mt-4 text-center font-cormorant">
+                        <p className="lg:text-[26px] text-[14px] text-[#3c2267] md:mt-6 mt-4 text-center font-cormorant-upright font-bold">
                             Click the contact numbers to RSVP
                         </p>
-                        <p className="lg:text-[22px] text-[14px] text-white md:mt-6 mt-2 text-center font-cormorant font-semibold">
+                        <p className="lg:text-[26px] text-[14px] text-white md:mt-4 mt-2 text-center font-cormorant-upright font-bold">
                             <a
                                 href="https://wa.me/919811075858"
                                 target="_blank"
@@ -87,6 +87,7 @@ export default function CoupleMessage() {
                                 href="https://wa.me/919811075858"
                                 target="_blank"
                                 rel="noopener noreferrer"
+                                className="font-cormorant font-semibold lg:text-[22px] "
                             >9811075858</a> <br />
                             <a
                                 href="https://wa.me/9811449797"
@@ -97,6 +98,7 @@ export default function CoupleMessage() {
                                 href="https://wa.me/9811449797"
                                 target="_blank"
                                 rel="noopener noreferrer"
+                                 className="font-cormorant font-semibold lg:text-[22px]"
                             > 9811449797</a></p>
                     </div>
                 </div>
