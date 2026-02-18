@@ -316,7 +316,7 @@ export default function Home() {
 
                   <a
                     href={event.link}
-                    className="text-[#E6D2FF] underline md:text-sm text-[20px] mt-2 font-cormorant"
+                    className="text-[#E6D2FF] underline md:text-sm text-[18px] mt-2 font-cormorant"
                     target="_blank"
                   >
                     See the route
@@ -335,7 +335,7 @@ export default function Home() {
                   {event.link_barat && (
                     <a
                       href={event.link_barat}
-                      className="text-[#E6D2FF] underline md:text-sm text-[20px] mt-2 font-cormorant mb-26"
+                      className="text-[#E6D2FF] underline md:text-sm text-[18px] mt-2 font-cormorant mb-26"
                       target="_blank"
                     >
                       See the route
