@@ -54,7 +54,7 @@ export default function Home() {
 
     {
       title: "Anand Karaj",
-      image: "/assets/anand.png",
+      image: "/assets/phere.webp",
       date: "Monday, March 9th 2026",
       venue: "Gurudwara Sri Guru Singh Sabha ",
       venue_address: <>Ashok Vihar, Phase 2, <br/>Delhi, 110052</>,
