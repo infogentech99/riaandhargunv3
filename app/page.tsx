@@ -116,7 +116,7 @@ export default function Home() {
       {/* hero section */}
       <div
         className="
-    bg-[url('/assets/intermobile_bg.png')]
+    bg-[url('/assets/intermobile_bg.webp')]
     md:bg-[url('/assets/inter_bg.webp')]
     bg-cover
     bg-no-repeat
@@ -327,7 +327,7 @@ export default function Home() {
       </div>
 
 
-       <div className="hidden md:block bg-[url('/assets/meetthebroom.png')] bg-cover bg-no-repeat">
+       <div className="hidden md:block bg-[url('/assets/meetthebroom.webp')] bg-cover bg-no-repeat">
         <div className="lg:h-325 md:h-180">
           <h1 className="lg:text-3xl text-xl text-center text-[#E1EF1E] lg:pt-64 pt-12 font-cormorant">
             MEET THE
@@ -341,7 +341,7 @@ export default function Home() {
 
       {/* mobile visible section */}
 
-      <div className="md:hidden bg-[url('/assets/meetthebroom_mobile.png')] bg-cover bg-no-repeat">
+      <div className="md:hidden bg-[url('/assets/meetthebroom_mobile.webp')] bg-cover bg-no-repeat">
         <div className="h-220">
           <h1 className="text-xl text-center text-[#E1EF1E] lg:pt-48 pt-28 font-cormorant">
             MEET THE
