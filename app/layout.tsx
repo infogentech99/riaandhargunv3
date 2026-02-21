@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
   openGraph: {
     title: "Hargun & Ria ",
-    description: "Join as they begin their forever · 11–13 March 2026",
+    description: "Join as they begin their forever. 11–13 March 2026",
     url: "https://riaandhargunv3.vercel.app/",
     siteName: "InviteArc",
     images: [
