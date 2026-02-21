@@ -316,11 +316,11 @@ export default function Home() {
                     className="lg:w-80 w-95 sm:w-76 h-auto"
                   />
 
-                  <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[45px] md:text-2xl text-[35px] mt-4 font-bold">
+                  <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[45px] md:text-2xl text-[37px] mt-4 font-bold">
                     {event.title_ceremony}
                   </h2>
 
-                  <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[40px] md:text-2xl text-[30px] mt-4 font-bold">
+                  <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[35px] md:text-2xl text-[30px] mt-4 font-bold">
                     {event.title}
                   </h2>
 
