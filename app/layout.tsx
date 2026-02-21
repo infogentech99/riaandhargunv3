@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Hargun & Ria",
-    description: "Join as they begin their forever · 8, 9 & 11 March, 2026",
+    description: "Join as they begin their forever. 8, 9 & 11 March, 2026",
     images: ["/og.jpg"],
   },
 
