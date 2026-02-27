@@ -271,7 +271,7 @@ export default function Home() {
             </h2>
 
             <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl text-[19px] mt-6">
-              you to join us in the wedding celebrations of
+              you to join the wedding celebrations of
             </p>
 
 
